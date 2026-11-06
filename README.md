@@ -75,6 +75,11 @@ Tugas2_Inherit-polymorph-2554/
 │       ├── ProdukBundel.java    ← tantangan opsional (composite)
 │       ├── Keranjang.java       ← composition dari List<Produk>
 │       └── TesSoal4.java
+├── screenshots/
+│   ├── soal1.png
+│   ├── soal2.png
+│   ├── soal3.png
+│   └── soal4.png
 ├── .gitignore
 └── README.md
 ```
@@ -112,6 +117,8 @@ java -cp out soal4.TesSoal4
 ## Contoh Output
 
 ### Soal 1
+![Screenshot Output Soal 1](screenshots/soal1.png)
+
 ```
 Asus | garansi 24 bulan | RAM 16 GB | layar 14.0 inci
 Samsung | garansi 12 bulan | 128 GB | 3 kamera
@@ -120,7 +127,10 @@ Pajak laptop: Rp800000
 Promo laptop 10 persen: Rp7200000
 ```
 
-### Soal 2 – Bagian A
+### Soal 2
+![Screenshot Output Soal 2](screenshots/soal2.png)
+
+#### Bagian A
 ```
 Hewan dibuat: Tom
 Kucing dibuat
@@ -132,14 +142,14 @@ Hewan dibuat: Generik
 h2 bukan Kucing, downcasting dilewati.
 ```
 
-### Soal 2 – Bagian B
+#### Bagian B
 ```
 A dibuat
 init B, nilai=0
 B dibuat, nilai=5
 ```
 
-### Soal 2 – Bagian C
+#### Bagian C
 ```
 78.53981633974483
 0.0
@@ -147,12 +157,16 @@ B dibuat, nilai=5
 ```
 
 ### Soal 3
+![Screenshot Output Soal 3](screenshots/soal3.png)
+
 ```
 (0.0, 0.0) - (3.0, 4.0) panjang=5.0
 (1.0, 1.0) - (5.0, 5.0)
 ```
 
 ### Soal 4
+![Screenshot Output Soal 4](screenshots/soal4.png)
+
 ```
 F01 | Keyboard Mekanik | fisik 1.5 kg | Rp515000
 D01 | Ebook Java | digital 20.0 MB | Rp90000
